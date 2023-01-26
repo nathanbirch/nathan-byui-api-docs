@@ -1,4 +1,4 @@
-let url = 'https://nathan-byui-api.herokuapp.com/temples';
+let url = 'https://nathan-byui-api.onrender.com/temples';
 // js function to get data from an api
 async function apiFetch(url) {
   const response = await fetch(url);

@@ -29,6 +29,7 @@
     </nav>
     <div class="container">
         <h1>Temple API - WDD230</h1>
+        <h6>Disclaimer: The images below show a different base url. Please disregard the Heroku url and know that the new published api was deployed on Render: https://nathan-byui-api.onrender.com</h6>
         <h2>API Key</h2>
         <p>To access data from this api, you must include the <code>apiKey</code> field in the header. The apiKey is:</p>
         <div class="alert alert-primary mx-auto" role="alert">
@@ -39,7 +40,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Base URL: <span class="link-primary">https://nathan-byui-api.herokuapp.com</span>
+                        Base URL: <span class="link-primary">https://nathan-byui-api.onrender.com</span>
                     </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -52,12 +53,12 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        GET all temples (limited data): <span class="link-primary">https://nathan-byui-api.herokuapp.com/temples</span>
+                        GET all temples (limited data): <span class="link-primary">https://nathan-byui-api.onrender.com/temples</span>
                     </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <p>This is the url for this API request: <span class="link-primary">https://nathan-byui-api.herokuapp.com/temples</span>. This will not return detailed data on any temple, but it will return minimal data on every temple in the database. If you do not include the <code>apiKey</code> field in the headers of your request, you will see something like this: </p>
+                        <p>This is the url for this API request: <span class="link-primary">https://nathan-byui-api.onrender.com/temples</span>. This will not return detailed data on any temple, but it will return minimal data on every temple in the database. If you do not include the <code>apiKey</code> field in the headers of your request, you will see something like this: </p>
                         <img src="./images/getAll-noKey.png" class="img-fluid" alt="">
                         <p>If you include the data in the header as listed above, you will see a response similar to this:</p>
                         <img src="./images/getAll-withKey.png" alt="" class="img-fluid">
@@ -67,12 +68,12 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        GET temple by id (all data): <span class="link-primary">https://nathan-byui-api.herokuapp.com/{temple_id}</span>
+                        GET temple by id (all data): <span class="link-primary">https://nathan-byui-api.onrender.com/{temple_id}</span>
                     </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <p>This is the url for this API request: <span class="link-primary">https://nathan-byui-api.herokuapp.com/temples/{temple_id}</span>. This will return datiled data on the temple with that id. If you do not include the <code>apiKey</code> field in the headers of your request, you will see something like this: </p>
+                        <p>This is the url for this API request: <span class="link-primary">https://nathan-byui-api.onrender.com/temples/{temple_id}</span>. This will return datiled data on the temple with that id. If you do not include the <code>apiKey</code> field in the headers of your request, you will see something like this: </p>
                         <img src="./images/getOne-noKey.png" class="img-fluid" alt="">
                         <p>If you include the data in the header as listed above, you will see a response similar to this:</p>
                         <img src="./images/getOne-withKey.png" alt="" class="img-fluid">
